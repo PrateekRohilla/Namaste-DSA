@@ -1,3 +1,5 @@
+//https://namastedev.com/practice/sum
+
 function sum(...args){
     let nums = [...args]
     let total = 0;
