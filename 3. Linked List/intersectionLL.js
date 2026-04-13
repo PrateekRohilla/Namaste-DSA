@@ -54,15 +54,15 @@ var getIntersectionNode = function(headA, headB) {
     t1 = headA;
     t2 = headB;
 
-    /*traverse larger list & make both lists pointers at same length*/
-    //second list is larger
+    /*traverse list & make both lists pointers at same length*/
+    //if second list is larger
     if(n1 < n2){
         while(d > 0){
             t2 = t2.next;
             d--;
         }
     }
-    //first list larger
+    //if first list larger
     else{
         while(d < 0){
             t1 = t1.next;
